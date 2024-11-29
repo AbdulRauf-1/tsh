@@ -55,6 +55,7 @@ jobs:
           mkdir -p config
           echo "${{ secrets.CONFIG_JSON_CONTENT }}" > config/config.json
 
+          
       - name: Create .htaccess file
         run: |
           echo "Creating .htaccess file..."
